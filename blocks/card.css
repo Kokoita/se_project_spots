@@ -29,6 +29,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 8px 0 0;
+    max-width: 413px;
 }
 
 .card__like-button{
@@ -46,6 +47,10 @@
 }
 
 @media screen and (max-width: 627px) {
+    .card{
+        width: 288px;
+    }
+    
     .card__image{
         height: 288px;
     }
@@ -53,5 +58,6 @@
     .card__title{
         font-size: 16px;
         line-height: 100%;
+        max-width: 288px;
     }
 }
